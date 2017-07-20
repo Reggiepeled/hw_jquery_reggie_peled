@@ -23,7 +23,6 @@
         <p>Block layout is vertically-biased; inline layout is horizontally-biased. Flexbox layout permits either. While the block layout works well for pages, it is inconvenient for application components that should change orientation, resize, stretch, or shrink as the user agent changes, phones flip from vertical to horizontal orientation, and so forth. Flexbox layout is good at small-scale layouts, whereas the (emerging) Grid layout is intended for larger-scale layouts. Both are part of a wider effort of the CSS Working Group to provide for greater interoperability of web applications with different user agents, different writing modes, and other demands.</p>
         <h2 id="Flexible_Boxes_Vocabulary">Flexible Boxes Vocabulary</h2>
         <p>Instead of talking about horizontal (inline) and vertical (block), flexible boxes use the terms main axis and cross axis. If <code>flex-direction</code> were <code>column</code>, then vertical would be the main axis and horizontal would be the cross axis. Consider the following diagram. It shows a flex container that has a <code>flex-direction</code> of <code>row</code>, meaning that the flex items follow each other horizontally across the main axis.</p>
-        <p><img src="/files/3739/flex_terms.png" alt="flex_terms.png" class="default internal"></p>
 
         <dl>
             <dt>Flex container</dt>
@@ -139,7 +138,6 @@
 
         <h3 id="Holy_Grail_Layout_example">Holy Grail Layout example</h3>
         <p>This example demonstrates how flexbox provides the ability to dynamically change the layout for different screen resolutions. The following diagram illustrates the transformation.</p>
-        <p><img src="/files/3760/HolyGrailLayout.png" alt="HolyGrailLayout.png" class="default internal"></p>
         <p>Illustrated here is the case where the page layout suited to a browser window must be optimized for a smart phone window. Not only must the elements reduce in size, but the order in which they are presented must change. Flexbox makes this very simple.</p>
         <pre class="brush: html">​&lt;!DOCTYPE html&gt;
             &lt;html lang="en"&gt;
